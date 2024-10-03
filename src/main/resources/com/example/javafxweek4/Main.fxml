@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.javafxweek4.MainController">
+
+
+    <TextField fx:id="inputField" layoutX="50" layoutY="50" prefWidth="200" />
+
+    <Button text="Add Node" layoutX="50" layoutY="100" onAction="#addNode"/>
+    <Button text="Delete Node" layoutX="150" layoutY="100" onAction="#deleteNode"/>
+    <Button text="Traverse Singly" layoutX="50" layoutY="150" onAction="#traverseSingly"/>
+    <Button text="Traverse Doubly" layoutX="150" layoutY="150" onAction="#traverseDoubly"/>
+    <Button text="Traverse Circular" layoutX="250" layoutY="150" onAction="#traverseCircular"/>
+
+    <!-- PLEASEE WORK I AM SO TIERED OF THIS -->
+    <TextArea fx:id="displayArea" layoutX="50" layoutY="200" prefWidth="300" prefHeight="150"/>
+
+</AnchorPane>
